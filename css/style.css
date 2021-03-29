@@ -151,3 +151,87 @@ body{
 .intro div:first-child img{
     width:80px;
 }
+
+/* 3-й блок*/
+
+.rent{
+    margin-left: 285px;
+    width: 1110px;
+}
+.left-text{
+    color: gray;
+}
+.rent-intro{
+    display: flex;
+}
+
+.rent-intro p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.rent-intro img{
+    width: 80px;
+}
+
+.rent-body{
+    display: flex;
+    align-items: center;
+}
+
+.rent-body__left{
+    max-width: 300px
+}
+
+.rent-body__right{
+    max-width: 665px;   
+}
+
+.rent-button img{
+    width: 40px;
+}
+
+.rent-button{
+    margin-right: 10px;
+}
+
+.right-header{
+    margin-left:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header p{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.rent-body__right{
+    width:500px;
+    height: 250px;
+    margin-left: 50px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #005BC1;
+}
+
+.right-body{
+    display: flex;
+}
+
+.rightbody_left img{
+    width: 220px;
+}
+
+.body-header{
+    font-weight: 700;
+}
+
+.right-main{
+    color: gray;
+    font-size: 12px;
+}
+
+.right-main li{
+    margin-top:10px;
+}
