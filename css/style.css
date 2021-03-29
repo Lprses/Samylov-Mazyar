@@ -235,3 +235,133 @@ body{
 .right-main li{
     margin-top:10px;
 }
+
+/* 4й блок*/
+.news {
+    margin-bottom: 100px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+    
+.news-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+    
+.news-top__left {
+    display: flex;
+    align-items: center;
+}
+    
+.news-top__left p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+    
+.news-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #005BC1;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+ }
+    
+.news-main1 {
+    display: flex;
+}
+    
+.main1-left {
+    display: flex;
+    width: 450px;
+    align-items: center;
+}
+    
+.main1-left img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 0;
+}
+    
+.main1__left__text {
+    padding-top: -20px;
+    width: 200px;
+}
+    
+.main1__left__text__top {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    justify-content: space-between;
+}
+    
+.main1__left__text__top h1 {
+    color: #343434;
+    font-size: 14px;
+}
+    
+.main1__left__text__top p {
+    color: #979797;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+.main1__left__text__mid p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+}
+    
+.main1__left__text__mid a {
+    text-decoration: none;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+    
+
+.main2__right {
+    display: flex;
+}
+    
+.main2__right__left {
+    margin-left: 20px;
+}
+    
+.main2__right__left h1 {
+    color: #343434;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.main2__right__left2 {
+        width: 60px;
+}
+    
+.main2__right__left p {
+    color: #343434;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+.main2__right__left__down {
+    display: flex;
+}
+    
+.main2__right__left__down img {
+    width: 125px;
+    height: 125px;
+}
+    
+.main2__right__left__down p {
+    color: #979797;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
