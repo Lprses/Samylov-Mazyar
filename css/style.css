@@ -71,3 +71,83 @@ body{
     z-index: 0;
     margin-left: 250px;
 }
+
+/* 2-й блок*/
+
+.slider{
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.main{
+    width: 800px;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+
+.first{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    background-image: url(../img/ns.png);
+    background-size: cover;
+}
+.first:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+  }
+.first:first-child{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    background-image: url(../img/ns.png);
+    background-size: cover;
+    margin-right: 20px;
+}
+.first-item{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 220px;
+    height: 120px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro div:first-child {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.intro div:first-child p{
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.intro div:first-child img{
+    width:80px;
+}
